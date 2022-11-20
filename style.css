@@ -12,60 +12,63 @@ body{
 }
 
 input[type=text]{
-    padding:10px;
+    padding:20px;
     box-shadow: 0 0 15px 4px;
     rgba(0,0,0,0.06);
     border-radius: 20px;
     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 
 }
 
 .container{
     font-weight: 400;
-    display:flex;
-    height:100%;
+    display: flex;
+    height: 100%;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+    margin-top: 200px;
 }
 .buttons{
+    
     display: flex;
     flex-direction:column;
 }
 .btn{
+    
     text-decoration: none;
-    padding: 10px 20px;
+    /* position: relative; */
+    padding: 20px 50px;
     font-size:1.25rem;
-    position: relative;
+    background-color: #e6b9b9;
     margin: 5px;
+    font-family: 'Lobster', cursive;
     
 }
 /*style our bottons*/
 .btn-1{
-    overflow: hidden;
-    color: rgb(21, 24, 61);
+    /* overflow: hidden; */
+    color: rgb(13, 21, 139);
     border-radius: 30px;
-    box-shadow:0 0 0 0 rgba(181, 127, 251, 0.954), 0 0 0 0 rgba(105, 203, 236, 0.941);
+    box-shadow:0 0 0 0 rgba(182, 130, 249, 0.954), 0 0 0 0 rgba(105, 203, 236, 0.941);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn-1::after{
-    content:"";
-    width:400px;
-    height: 400px;
-    position: absolute;
-    top:-50px;
-    left: 100px;
-    background-color:#de7c78;
-    background-image: linear-gradient(225deg,
-        #78d4de 0%, 
-        #de7c78  60%, 
-        #b84341 100% );
-        z-index: -1;
-        transition: transform 0.5s ease;
     
+    content:"";
+    width: 400px;
+    height: 400px;
+    /* position: absolute; */
+    top: 40px;
+    left: 400px;
+    background-color:#d82d27;
+    background-image: linear-gradient(225deg, #78d4de 0%, #de7c78  60%, #b84341 100% );
+    z-index: -1;
+    transition: transform 0.5s ease;
 }
 .btn-1:hover{
-    transition: translate(0, -6px);
+    transition: translate(0, -5px);
     box-shadow:10px -10px 25px 0 rgba(181, 127, 251, 0.954), -10px 10px 25px 0 rgba(105, 203, 236, 0.941);
 }
 
@@ -76,6 +79,7 @@ input[type=text]{
 .move{
     text-align: center;
 }
+
 
 /* Add a black background color to the top navigation */
 .topnav {

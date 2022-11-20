@@ -5,7 +5,7 @@ var config = {
     datasets: [
     {
         label: "Your expense amount", 
-        data:[10,20,34,2,1000],
+        data:[100,260,500,200,1000],
         backgroundColor: 
         ["rgba(214, 15, 6, 0.4)", "rgba(255,123, 0, 0.4)","rgba(6, 182, 99, 0.4)", "rgba(16, 124, 195, 0.4)", "rgba(6, 33, 131, 0.4)"],
         borderColor: ["rgba(214, 15, 6, 1)", "rgba(255,123, 0, 1)","rgba(6, 182, 99, 1)", "rgba(16, 124, 195, 1)", "rgba(55, 86, 197, 1)"],
